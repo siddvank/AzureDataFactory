@@ -1,0 +1,9 @@
+{
+	"name": "demodf1246",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0d86144e-f3f2-41cf-877a-ecb13bdbff99",
+		"tenantId": "b91c9aff-13f8-4412-b862-47f236ae7019"
+	}
+}

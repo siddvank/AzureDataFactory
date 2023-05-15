@@ -1,0 +1,24 @@
+{
+	"name": "SourceExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sf_source",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "POC2"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
+			"sheetIndex": 0,
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
